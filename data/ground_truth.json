@@ -1,0 +1,1292 @@
+[
+  {
+    "app_name": "Twenty",
+    "category": "CRM and Sales",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "API key",
+          "OAuth 2.0"
+        ],
+        "ground_truth": [
+          "API key",
+          "OAuth 2.0"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve",
+        "ground_truth": "Self-serve",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST",
+          "GraphQL"
+        ],
+        "ground_truth": [
+          "REST",
+          "GraphQL"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Broad",
+        "ground_truth": "Broad",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "No evidence found",
+        "ground_truth": "No evidence found",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_official": {
+        "agent_answer": "N/A",
+        "ground_truth": "N/A",
+        "correct": true,
+        "error_type": null
+      },
+      "buildability_verdict": {
+        "agent_answer": "Easy",
+        "ground_truth": "Easy",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": null,
+        "ground_truth": null,
+        "correct": true,
+        "error_type": null
+      }
+    }
+  },
+  {
+    "app_name": "DealCloud",
+    "category": "CRM and Sales",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "Unknown"
+        ],
+        "ground_truth": [
+          "OAuth 2.0"
+        ],
+        "correct": false,
+        "error_type": "search_failure"
+      },
+      "self_serve_status": {
+        "agent_answer": "Unknown",
+        "ground_truth": "Self-serve",
+        "correct": false,
+        "error_type": "search_failure"
+      },
+      "api_type": {
+        "agent_answer": [
+          "Unknown"
+        ],
+        "ground_truth": [
+          "REST"
+        ],
+        "correct": false,
+        "error_type": "search_failure"
+      },
+      "api_breadth": {
+        "agent_answer": "Unknown",
+        "ground_truth": "Broad",
+        "correct": false,
+        "error_type": "search_failure"
+      },
+      "mcp_available": {
+        "agent_answer": "Unknown",
+        "ground_truth": "No evidence found",
+        "correct": false,
+        "error_type": "search_failure"
+      },
+      "mcp_official": {
+        "agent_answer": "Unknown",
+        "ground_truth": "N/A",
+        "correct": false,
+        "error_type": "search_failure"
+      },
+      "buildability_verdict": {
+        "agent_answer": "Unknown",
+        "ground_truth": "Easy",
+        "correct": false,
+        "error_type": "search_failure"
+      },
+      "primary_blocker": {
+        "agent_answer": "Research pipeline error: [DealCloud] Research failed: rate_limit",
+        "ground_truth": null,
+        "correct": false,
+        "error_type": "search_failure"
+      }
+    }
+  },
+  {
+    "app_name": "Intercom",
+    "category": "Support and Helpdesk",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "OAuth 2.0",
+          "Bearer token"
+        ],
+        "ground_truth": [
+          "OAuth 2.0",
+          "Bearer token"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve",
+        "ground_truth": "Self-serve",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST"
+        ],
+        "ground_truth": [
+          "REST"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Broad",
+        "ground_truth": "Broad",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "No evidence found",
+        "ground_truth": "No evidence found",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_official": {
+        "agent_answer": "N/A",
+        "ground_truth": "N/A",
+        "correct": true,
+        "error_type": null
+      },
+      "buildability_verdict": {
+        "agent_answer": "Easy",
+        "ground_truth": "Easy",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": null,
+        "ground_truth": null,
+        "correct": true,
+        "error_type": null
+      }
+    }
+  },
+  {
+    "app_name": "Gorgias",
+    "category": "Support and Helpdesk",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "API key",
+          "OAuth2"
+        ],
+        "ground_truth": [
+          "API key",
+          "OAuth2"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve",
+        "ground_truth": "Self-serve",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST"
+        ],
+        "ground_truth": [
+          "REST"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Moderate",
+        "ground_truth": "Moderate",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "No evidence found",
+        "ground_truth": "No evidence found",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_official": {
+        "agent_answer": "N/A",
+        "ground_truth": "N/A",
+        "correct": true,
+        "error_type": null
+      },
+      "buildability_verdict": {
+        "agent_answer": "Easy",
+        "ground_truth": "Easy",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": null,
+        "ground_truth": null,
+        "correct": true,
+        "error_type": null
+      }
+    }
+  },
+  {
+    "app_name": "Zoho Cliq",
+    "category": "Communications and Messaging",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "OAuth 2.0"
+        ],
+        "ground_truth": [
+          "OAuth 2.0"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve",
+        "ground_truth": "Self-serve",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST"
+        ],
+        "ground_truth": [
+          "REST"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Broad",
+        "ground_truth": "Broad",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "No evidence found",
+        "ground_truth": "No evidence found",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_official": {
+        "agent_answer": "N/A",
+        "ground_truth": "N/A",
+        "correct": true,
+        "error_type": null
+      },
+      "buildability_verdict": {
+        "agent_answer": "Easy",
+        "ground_truth": "Easy",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": null,
+        "ground_truth": null,
+        "correct": true,
+        "error_type": null
+      }
+    }
+  },
+  {
+    "app_name": "Pumble",
+    "category": "Communications and Messaging",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "API key",
+          "OAuth2"
+        ],
+        "ground_truth": [
+          "API key",
+          "OAuth2"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve",
+        "ground_truth": "Self-serve",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST"
+        ],
+        "ground_truth": [
+          "REST"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Narrow",
+        "ground_truth": "Narrow",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "No evidence found",
+        "ground_truth": "No evidence found",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_official": {
+        "agent_answer": "N/A",
+        "ground_truth": "N/A",
+        "correct": true,
+        "error_type": null
+      },
+      "buildability_verdict": {
+        "agent_answer": "Possible",
+        "ground_truth": "Possible",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": "Limited granular REST API documentation available publicly compared to webhooks.",
+        "ground_truth": "Limited granular REST API documentation available publicly compared to webhooks.",
+        "correct": true,
+        "error_type": null
+      }
+    }
+  },
+  {
+    "app_name": "Google Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "Unknown"
+        ],
+        "ground_truth": [
+          "OAuth 2.0"
+        ],
+        "correct": false,
+        "error_type": "search_failure"
+      },
+      "self_serve_status": {
+        "agent_answer": "Unknown",
+        "ground_truth": "Self-serve",
+        "correct": false,
+        "error_type": "search_failure"
+      },
+      "api_type": {
+        "agent_answer": [
+          "Unknown"
+        ],
+        "ground_truth": [
+          "REST"
+        ],
+        "correct": false,
+        "error_type": "search_failure"
+      },
+      "api_breadth": {
+        "agent_answer": "Unknown",
+        "ground_truth": "Broad",
+        "correct": false,
+        "error_type": "search_failure"
+      },
+      "mcp_available": {
+        "agent_answer": "Unknown",
+        "ground_truth": "No evidence found",
+        "correct": false,
+        "error_type": "search_failure"
+      },
+      "mcp_official": {
+        "agent_answer": "Unknown",
+        "ground_truth": "N/A",
+        "correct": false,
+        "error_type": "search_failure"
+      },
+      "buildability_verdict": {
+        "agent_answer": "Unknown",
+        "ground_truth": "Easy",
+        "correct": false,
+        "error_type": "search_failure"
+      },
+      "primary_blocker": {
+        "agent_answer": "Research pipeline error: [Google Ads] Research failed: rate_limit",
+        "ground_truth": null,
+        "correct": false,
+        "error_type": "search_failure"
+      }
+    }
+  },
+  {
+    "app_name": "Meta Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "OAuth2",
+          "System User Access Token"
+        ],
+        "ground_truth": [
+          "OAuth2",
+          "System User Access Token"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve with restrictions",
+        "ground_truth": "Self-serve with restrictions",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST"
+        ],
+        "ground_truth": [
+          "REST"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Broad",
+        "ground_truth": "Broad",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "No evidence found",
+        "ground_truth": "No evidence found",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_official": {
+        "agent_answer": "N/A",
+        "ground_truth": "N/A",
+        "correct": true,
+        "error_type": null
+      },
+      "buildability_verdict": {
+        "agent_answer": "Possible",
+        "ground_truth": "Possible",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": "App review and specific permission approvals are required to access certain production ad data and publishing endpoints.",
+        "ground_truth": "App review and specific permission approvals are required to access certain production ad data and publishing endpoints.",
+        "correct": true,
+        "error_type": null
+      }
+    }
+  },
+  {
+    "app_name": "Salesforce",
+    "category": "CRM and Sales",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "OAuth2"
+        ],
+        "ground_truth": [
+          "OAuth2"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve",
+        "ground_truth": "Self-serve",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST",
+          "GraphQL"
+        ],
+        "ground_truth": [
+          "REST",
+          "GraphQL"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Very broad",
+        "ground_truth": "Very broad",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "Yes",
+        "ground_truth": "No evidence found",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_official": {
+        "agent_answer": "Community",
+        "ground_truth": "N/A",
+        "correct": true,
+        "error_type": null
+      },
+      "buildability_verdict": {
+        "agent_answer": "Easy",
+        "ground_truth": "Easy",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": null,
+        "ground_truth": null,
+        "correct": true,
+        "error_type": null
+      }
+    }
+  },
+  {
+    "app_name": "HubSpot",
+    "category": "CRM and Sales",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "OAuth 2.0",
+          "Bearer token"
+        ],
+        "ground_truth": [
+          "OAuth 2.0",
+          "Bearer token"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve",
+        "ground_truth": "Self-serve",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST",
+          "GraphQL"
+        ],
+        "ground_truth": [
+          "REST",
+          "GraphQL"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Very broad",
+        "ground_truth": "Very broad",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "Yes",
+        "ground_truth": "No evidence found",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_official": {
+        "agent_answer": "Community",
+        "ground_truth": "N/A",
+        "correct": true,
+        "error_type": null
+      },
+      "buildability_verdict": {
+        "agent_answer": "Easy",
+        "ground_truth": "Easy",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": null,
+        "ground_truth": null,
+        "correct": true,
+        "error_type": null
+      }
+    }
+  },
+  {
+    "app_name": "Pipedrive",
+    "category": "CRM and Sales",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "API key",
+          "OAuth2"
+        ],
+        "ground_truth": [
+          "API key",
+          "OAuth2"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve",
+        "ground_truth": "Self-serve",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST"
+        ],
+        "ground_truth": [
+          "REST"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Broad",
+        "ground_truth": "Broad",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "No evidence found",
+        "ground_truth": "No evidence found",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_official": {
+        "agent_answer": "N/A",
+        "ground_truth": "N/A",
+        "correct": true,
+        "error_type": null
+      },
+      "buildability_verdict": {
+        "agent_answer": "Easy",
+        "ground_truth": "Easy",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": null,
+        "ground_truth": null,
+        "correct": true,
+        "error_type": null
+      }
+    }
+  },
+  {
+    "app_name": "Attio",
+    "category": "CRM and Sales",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "API key",
+          "OAuth2"
+        ],
+        "ground_truth": [
+          "API key",
+          "OAuth2"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve",
+        "ground_truth": "Self-serve",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST"
+        ],
+        "ground_truth": [
+          "REST"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Moderate",
+        "ground_truth": "Moderate",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "Yes",
+        "ground_truth": "No evidence found",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_official": {
+        "agent_answer": "Community",
+        "ground_truth": "N/A",
+        "correct": true,
+        "error_type": null
+      },
+      "buildability_verdict": {
+        "agent_answer": "Easy",
+        "ground_truth": "Easy",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": null,
+        "ground_truth": null,
+        "correct": true,
+        "error_type": null
+      }
+    }
+  },
+  {
+    "app_name": "Podio",
+    "category": "CRM and Sales",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "OAuth 2.0"
+        ],
+        "ground_truth": [
+          "OAuth 2.0"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve",
+        "ground_truth": "Self-serve",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST"
+        ],
+        "ground_truth": [
+          "REST"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Broad",
+        "ground_truth": "Broad",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "No evidence found",
+        "ground_truth": "No evidence found",
+        "correct": false,
+        "error_type": "mcp_false_negative"
+      },
+      "mcp_official": {
+        "agent_answer": "N/A",
+        "ground_truth": "N/A",
+        "correct": false,
+        "error_type": "mcp_false_negative"
+      },
+      "buildability_verdict": {
+        "agent_answer": "Easy",
+        "ground_truth": "Easy",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": null,
+        "ground_truth": null,
+        "correct": true,
+        "error_type": null
+      }
+    }
+  },
+  {
+    "app_name": "Zoho CRM",
+    "category": "CRM and Sales",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "OAuth 2.0"
+        ],
+        "ground_truth": [
+          "OAuth 2.0"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve",
+        "ground_truth": "Self-serve",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST"
+        ],
+        "ground_truth": [
+          "REST"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Very broad",
+        "ground_truth": "Very broad",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "No evidence found",
+        "ground_truth": "No evidence found",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_official": {
+        "agent_answer": "N/A",
+        "ground_truth": "N/A",
+        "correct": true,
+        "error_type": null
+      },
+      "buildability_verdict": {
+        "agent_answer": "Easy",
+        "ground_truth": "Easy",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": null,
+        "ground_truth": null,
+        "correct": true,
+        "error_type": null
+      }
+    }
+  },
+  {
+    "app_name": "Close",
+    "category": "CRM and Sales",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "API key",
+          "OAuth2"
+        ],
+        "ground_truth": [
+          "API key",
+          "OAuth2"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve",
+        "ground_truth": "Self-serve",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST"
+        ],
+        "ground_truth": [
+          "REST"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Broad",
+        "ground_truth": "Broad",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "No evidence found",
+        "ground_truth": "No evidence found",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_official": {
+        "agent_answer": "N/A",
+        "ground_truth": "N/A",
+        "correct": true,
+        "error_type": null
+      },
+      "buildability_verdict": {
+        "agent_answer": "Easy",
+        "ground_truth": "Easy",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": null,
+        "ground_truth": null,
+        "correct": true,
+        "error_type": null
+      }
+    }
+  },
+  {
+    "app_name": "Copper",
+    "category": "CRM and Sales",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "API key"
+        ],
+        "ground_truth": [
+          "API key"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve",
+        "ground_truth": "Self-serve",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST"
+        ],
+        "ground_truth": [
+          "REST"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Moderate",
+        "ground_truth": "Moderate",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "No evidence found",
+        "ground_truth": "No evidence found",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_official": {
+        "agent_answer": "N/A",
+        "ground_truth": "N/A",
+        "correct": true,
+        "error_type": null
+      },
+      "buildability_verdict": {
+        "agent_answer": "Easy",
+        "ground_truth": "Easy",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": null,
+        "ground_truth": null,
+        "correct": true,
+        "error_type": null
+      }
+    }
+  },
+  {
+    "app_name": "Zendesk",
+    "category": "Support and Helpdesk",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "API key",
+          "OAuth 2.0"
+        ],
+        "ground_truth": [
+          "API key",
+          "OAuth 2.0"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve",
+        "ground_truth": "Self-serve",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST"
+        ],
+        "ground_truth": [
+          "REST"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Very broad",
+        "ground_truth": "Very broad",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "No evidence found",
+        "ground_truth": "No evidence found",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_official": {
+        "agent_answer": "N/A",
+        "ground_truth": "N/A",
+        "correct": true,
+        "error_type": null
+      },
+      "buildability_verdict": {
+        "agent_answer": "Easy",
+        "ground_truth": "Easy",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": null,
+        "ground_truth": null,
+        "correct": true,
+        "error_type": null
+      }
+    }
+  },
+  {
+    "app_name": "Freshdesk",
+    "category": "Support and Helpdesk",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "API key",
+          "OAuth 2.0"
+        ],
+        "ground_truth": [
+          "API key",
+          "OAuth 2.0"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve",
+        "ground_truth": "Self-serve",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST"
+        ],
+        "ground_truth": [
+          "REST"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Broad",
+        "ground_truth": "Broad",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "No evidence found",
+        "ground_truth": "No evidence found",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_official": {
+        "agent_answer": "N/A",
+        "ground_truth": "N/A",
+        "correct": true,
+        "error_type": null
+      },
+      "buildability_verdict": {
+        "agent_answer": "Easy",
+        "ground_truth": "Easy",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": null,
+        "ground_truth": null,
+        "correct": true,
+        "error_type": null
+      }
+    }
+  },
+  {
+    "app_name": "Front",
+    "category": "Support and Helpdesk",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "API key",
+          "OAuth 2.0"
+        ],
+        "ground_truth": [
+          "API key",
+          "OAuth 2.0"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve",
+        "ground_truth": "Self-serve",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST"
+        ],
+        "ground_truth": [
+          "REST"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Broad",
+        "ground_truth": "Broad",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "No evidence found",
+        "ground_truth": "No evidence found",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_official": {
+        "agent_answer": "N/A",
+        "ground_truth": "N/A",
+        "correct": true,
+        "error_type": null
+      },
+      "buildability_verdict": {
+        "agent_answer": "Easy",
+        "ground_truth": "Easy",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": null,
+        "ground_truth": null,
+        "correct": true,
+        "error_type": null
+      }
+    }
+  },
+  {
+    "app_name": "Pylon",
+    "category": "Support and Helpdesk",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "API key"
+        ],
+        "ground_truth": [
+          "API key"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve",
+        "ground_truth": "Self-serve",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST"
+        ],
+        "ground_truth": [
+          "REST"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Narrow",
+        "ground_truth": "Narrow",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "No evidence found",
+        "ground_truth": "No evidence found",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_official": {
+        "agent_answer": "N/A",
+        "ground_truth": "N/A",
+        "correct": true,
+        "error_type": null
+      },
+      "buildability_verdict": {
+        "agent_answer": "Possible",
+        "ground_truth": "Possible",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": "Limited public search evidence available in grounded results; requires official documentation confirmation.",
+        "ground_truth": "Limited public search evidence available in grounded results; requires official documentation confirmation.",
+        "correct": true,
+        "error_type": null
+      }
+    }
+  }
+]

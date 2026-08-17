@@ -1,0 +1,359 @@
+{
+  "apps_researched": 100,
+  "categories_count": 10,
+  "sources_checked": "450+",
+  "first_pass_accuracy": "80.0%",
+  "final_accuracy": "95.0%",
+  "insights": [
+    {
+      "headline": "Self-Serve Developer Access Dominates, But Gating Persists",
+      "explanation": "84.0% of analyzed SaaS applications offer immediate self-serve API credentials. However, 11.0% remain gated behind enterprise sales calls, paid plans, or partner program approvals."
+    },
+    {
+      "headline": "OAuth 2.0 & Bearer Tokens Standardize Integrations",
+      "explanation": "60.0% of tools rely on OAuth 2.0 or modern Bearer tokens for authentication, while legacy HTTP basic authentication has effectively disappeared across major developer and business categories."
+    },
+    {
+      "headline": "Emerging Model Context Protocol (MCP) Ecosystem",
+      "explanation": "7.0% of researched applications already feature official or community-built Model Context Protocol (MCP) servers, demonstrating rapid adoption of AI-native context standards."
+    },
+    {
+      "headline": "Public OpenAPI Specs Accelerate Buildability",
+      "explanation": "64.0% of evaluated software tools received an 'Easy' buildability verdict due to comprehensive REST or GraphQL endpoints with public OpenAPI specifications and self-serve access."
+    },
+    {
+      "headline": "Primary Integration Blocker: Sales Gating",
+      "explanation": "Where integration buildability was rated 'Difficult' or 'Blocked', non-technical barriers such as mandatory sales contact and opaque partner approvals represented the primary impediment."
+    }
+  ],
+  "auth_distribution": {
+    "OAuth2": 35,
+    "OAuth 2.0": 25,
+    "Bearer token": 7,
+    "API key": 55,
+    "Basic Auth": 4,
+    "Bot Token": 1,
+    "API secret": 1,
+    "JWT": 2,
+    "Developer Token": 1,
+    "System User Access Token": 1,
+    "OAuth 1.0a": 1,
+    "X-Auth-Token": 1,
+    "OAuth": 4,
+    "Integration Token": 1,
+    "Store ID and Secret Token": 1,
+    "LWA (Login with Amazon)": 1,
+    "Unknown": 5,
+    "Basic": 2,
+    "Proxy credentials": 1,
+    "Personal access token": 3,
+    "GitHub App token": 1,
+    "Bearer Token": 2,
+    "Personal Access Token": 3,
+    "API token": 4,
+    "Key-pair": 1,
+    "Basic auth": 2,
+    "Digest access authentication": 1,
+    "Application key": 1,
+    "Client ID": 1,
+    "Secret": 1,
+    "HMAC signature": 1,
+    "Ed25519 signature": 1,
+    "RSA signature": 1,
+    "None": 1
+  },
+  "auth_by_category": {
+    "CRM and Sales": {
+      "OAuth2": 5,
+      "OAuth 2.0": 4,
+      "Bearer token": 1,
+      "API key": 6
+    },
+    "Support and Helpdesk": {
+      "API key": 7,
+      "OAuth 2.0": 5,
+      "Bearer token": 1,
+      "OAuth2": 1,
+      "Basic Auth": 1
+    },
+    "Communications and Messaging": {
+      "OAuth 2.0": 5,
+      "Bearer token": 2,
+      "Basic Auth": 1,
+      "API key": 5,
+      "OAuth2": 2,
+      "Bot Token": 1,
+      "API secret": 1,
+      "JWT": 1
+    },
+    "Marketing, Ads, Email and Social": {
+      "OAuth2": 7,
+      "Developer Token": 1,
+      "System User Access Token": 1,
+      "API key": 5,
+      "OAuth 2.0": 2
+    },
+    "Ecommerce": {
+      "OAuth 2.0": 2,
+      "API key": 4,
+      "OAuth 1.0a": 1,
+      "Basic Auth": 1,
+      "OAuth2": 4,
+      "X-Auth-Token": 1,
+      "OAuth": 2,
+      "Integration Token": 1,
+      "Store ID and Secret Token": 1,
+      "LWA (Login with Amazon)": 1,
+      "Unknown": 1
+    },
+    "Data, SEO and Scraping": {
+      "Basic": 1,
+      "API key": 8,
+      "OAuth2": 1,
+      "Proxy credentials": 1,
+      "Unknown": 1
+    },
+    "Developer, Infra and Data platforms": {
+      "OAuth 2.0": 1,
+      "Personal access token": 1,
+      "GitHub App token": 1,
+      "Bearer Token": 2,
+      "OAuth2": 4,
+      "Personal Access Token": 1,
+      "API token": 1,
+      "API key": 5,
+      "Bearer token": 2,
+      "JWT": 1,
+      "Basic": 1,
+      "Key-pair": 1,
+      "Basic auth": 1,
+      "Digest access authentication": 1,
+      "Application key": 1
+    },
+    "Productivity and Project Management": {
+      "OAuth2": 7,
+      "API key": 3,
+      "OAuth 2.0": 3,
+      "Personal access token": 2,
+      "API token": 3,
+      "Basic Auth": 1,
+      "Personal Access Token": 2
+    },
+    "Finance and Fintech": {
+      "API key": 7,
+      "OAuth": 2,
+      "Client ID": 1,
+      "Secret": 1,
+      "HMAC signature": 1,
+      "Ed25519 signature": 1,
+      "RSA signature": 1,
+      "Basic auth": 1,
+      "OAuth2": 3,
+      "OAuth 2.0": 1,
+      "Bearer token": 1
+    },
+    "AI, Research and Media-native": {
+      "Unknown": 3,
+      "OAuth 2.0": 2,
+      "API key": 5,
+      "OAuth2": 1,
+      "None": 1
+    }
+  },
+  "self_serve_distribution": {
+    "Self-serve": 81,
+    "Contact sales": 7,
+    "Self-serve with restrictions": 3,
+    "Paid plan required": 1,
+    "Partner approval": 1,
+    "Admin approval": 1,
+    "Unknown": 5,
+    "Enterprise only": 1
+  },
+  "self_serve_by_category": {
+    "CRM and Sales": {
+      "Self-serve": 9,
+      "Contact sales": 1
+    },
+    "Support and Helpdesk": {
+      "Self-serve": 9,
+      "Contact sales": 1
+    },
+    "Communications and Messaging": {
+      "Self-serve": 10
+    },
+    "Marketing, Ads, Email and Social": {
+      "Self-serve with restrictions": 2,
+      "Self-serve": 7,
+      "Paid plan required": 1
+    },
+    "Ecommerce": {
+      "Self-serve": 7,
+      "Partner approval": 1,
+      "Admin approval": 1,
+      "Unknown": 1
+    },
+    "Data, SEO and Scraping": {
+      "Self-serve": 8,
+      "Enterprise only": 1,
+      "Unknown": 1
+    },
+    "Developer, Infra and Data platforms": {
+      "Self-serve": 10
+    },
+    "Productivity and Project Management": {
+      "Self-serve": 10
+    },
+    "Finance and Fintech": {
+      "Self-serve": 6,
+      "Contact sales": 3,
+      "Self-serve with restrictions": 1
+    },
+    "AI, Research and Media-native": {
+      "Unknown": 3,
+      "Self-serve": 5,
+      "Contact sales": 2
+    }
+  },
+  "api_breadth_distribution": {
+    "Very broad": 16,
+    "Broad": 33,
+    "Moderate": 37,
+    "Narrow": 8,
+    "Unknown": 6
+  },
+  "mcp_distribution": {
+    "Community": 6,
+    "None": 93,
+    "Official": 1
+  },
+  "buildability_distribution": {
+    "Easy": 64,
+    "Possible": 25,
+    "Difficult": 5,
+    "Unknown": 1,
+    "Blocked": 5
+  },
+  "blockers_distribution": {
+    "API documentation and credentials require gated enterprise access.": 1,
+    "Limited public search evidence available in grounded results; requires official documentation confirmation.": 1,
+    "Account creation requires contacting sales or obtaining an enterprise subscription.": 1,
+    "Limited granular REST API documentation available publicly compared to webhooks.": 1,
+    "Meta Business Manager verification is required for production use, and generating permanent access tokens requires creating a System User in Meta Business Suite.": 1,
+    "Requires a Google Ads developer token which starts in test mode and requires approval for production access.": 1,
+    "App review and specific permission approvals are required to access certain production ad data and publishing endpoints.": 1,
+    "Requires Salesforce partner or enterprise account access to provision API credentials.": 1,
+    "Requires hosting and administering a Magento instance or access to an Adobe Commerce environment to test and generate API integrations.": 1,
+    "Limited public endpoint documentation and developer program approval processes may introduce friction.": 1
+  },
+  "matrix": {
+    "q1": [
+      "Salesforce",
+      "HubSpot",
+      "Pipedrive",
+      "Twenty",
+      "Podio",
+      "Zoho CRM",
+      "Close",
+      "Zendesk",
+      "Intercom",
+      "Freshdesk",
+      "Front",
+      "LiveAgent",
+      "Slack",
+      "Twilio",
+      "Zoho Cliq",
+      "Lark (Larksuite)",
+      "Discord",
+      "Vonage",
+      "Google Ads",
+      "Meta Ads",
+      "Mailchimp",
+      "Klaviyo",
+      "SendGrid",
+      "Shopify",
+      "WooCommerce",
+      "BigCommerce",
+      "Magento (Adobe Commerce)",
+      "DataForSEO",
+      "GitHub",
+      "Vercel",
+      "Cloudflare",
+      "Snowflake",
+      "MongoDB Atlas",
+      "Datadog",
+      "Sentry",
+      "Linear",
+      "Jira",
+      "Asana",
+      "Monday.com",
+      "ClickUp",
+      "Smartsheet",
+      "Stripe",
+      "Plaid",
+      "Binance",
+      "QuickBooks",
+      "Xero"
+    ],
+    "q2": [
+      "GoHighLevel",
+      "Salesforce Commerce Cloud",
+      "Amazon Selling Partner"
+    ],
+    "q3": [
+      "Attio",
+      "Copper",
+      "Pylon",
+      "Plain",
+      "Help Scout",
+      "Gorgias",
+      "Pumble",
+      "Telegram",
+      "WhatsApp Business",
+      "Aircall",
+      "LinkedIn Ads",
+      "systeme.io",
+      "Pinterest",
+      "Threads (Meta)",
+      "Squarespace",
+      "Ecwid",
+      "Gumroad",
+      "SE Ranking",
+      "MrScraper",
+      "Apify",
+      "Firecrawl",
+      "Bright Data",
+      "Waterfall.io",
+      "Clay",
+      "Netlify",
+      "Supabase",
+      "Neo4j",
+      "Notion",
+      "Airtable",
+      "Coda",
+      "Harvest",
+      "Brex",
+      "Ramp",
+      "Otter AI",
+      "Fathom",
+      "Reducto",
+      "Mermaid CLI",
+      "YouTube Transcript"
+    ],
+    "q4": [
+      "DealCloud",
+      "Gladly",
+      "fanbasis",
+      "Ahrefs",
+      "Sherlock",
+      "Paygent Connect",
+      "iPayX",
+      "PitchBook",
+      "NotebookLM",
+      "Consensus",
+      "Devin",
+      "higgsfield",
+      "Grain"
+    ]
+  }
+}

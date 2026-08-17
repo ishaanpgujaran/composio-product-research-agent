@@ -1,0 +1,10 @@
+# Core pipeline
+composio          # v3 unified SDK (composio-gemini optional for AFC)
+composio-client   # v3 async HTTP client (AsyncComposio)
+pydantic>=2.0
+python-dotenv
+google-genai      # Gemini API (structured output + grounding)
+
+# Optional: install if using framework-specific Composio adapters
+# composio-gemini  # GeminiProvider for automatic function calling
+# composio-core    # legacy v2 SDK (fallback if composio-client unavailable)
