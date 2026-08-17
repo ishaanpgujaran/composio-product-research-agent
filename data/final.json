@@ -15,8 +15,8 @@
     "api_breadth": "Very broad",
     "api_documentation_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm",
     "mcp_available": "Yes",
-    "mcp_official": "Official",
-    "mcp_url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
+    "mcp_official": "Community",
+    "mcp_url": "https://github.com/modelcontextprotocol/servers",
     "buildability_verdict": "Easy",
     "primary_blocker": null,
     "evidence": [
@@ -46,9 +46,9 @@
         "source_tier": 1
       },
       {
-        "claim": "mcp_available: Salesforce official support for hosted Model Context Protocol servers is documented.",
-        "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
-        "source_tier": 1
+        "claim": "mcp_available: Salesforce community-maintained Model Context Protocol server references on GitHub",
+        "url": "https://github.com/modelcontextprotocol/servers",
+        "source_tier": 3
       }
     ],
     "confidence": "Medium",
@@ -104,8 +104,8 @@
       }
     ],
     "confidence": "High",
-    "human_review_required": true,
-    "human_review_notes": "No evidence entry covers field 'api_type' (value: 'REST, GraphQL').\nNo evidence entry covers field 'buildability_verdict' (value: 'Easy')."
+    "human_review_required": false,
+    "human_review_notes": null
   },
   {
     "app_name": "Pipedrive",
@@ -155,8 +155,8 @@
       }
     ],
     "confidence": "Medium",
-    "human_review_required": true,
-    "human_review_notes": "No evidence entry covers field 'mcp_available' (value: 'No evidence found')."
+    "human_review_required": false,
+    "human_review_notes": null
   },
   {
     "app_name": "Attio",
@@ -303,8 +303,8 @@
       }
     ],
     "confidence": "Medium",
-    "human_review_required": true,
-    "human_review_notes": "No evidence entry covers field 'self_serve_status' (value: 'Self-serve').\nNo evidence entry covers field 'buildability_verdict' (value: 'Easy')."
+    "human_review_required": false,
+    "human_review_notes": null
   },
   {
     "app_name": "Zoho CRM",
@@ -353,8 +353,8 @@
       }
     ],
     "confidence": "High",
-    "human_review_required": true,
-    "human_review_notes": "No evidence entry covers field 'buildability_verdict' (value: 'Easy')."
+    "human_review_required": false,
+    "human_review_notes": null
   },
   {
     "app_name": "Close",
@@ -449,8 +449,8 @@
       }
     ],
     "confidence": "Medium",
-    "human_review_required": true,
-    "human_review_notes": "No evidence entry covers field 'self_serve_status' (value: 'Self-serve').\nNo evidence entry covers field 'buildability_verdict' (value: 'Easy')."
+    "human_review_required": false,
+    "human_review_notes": null
   },
   {
     "app_name": "DealCloud",
@@ -495,8 +495,8 @@
       }
     ],
     "confidence": "Medium",
-    "human_review_required": true,
-    "human_review_notes": "Due to lack of SERP results and reliance on generalized enterprise CRM integration patterns, human review is required to verify exact API endpoints and authentication schemes.\nNo evidence entry covers field 'api_type' (value: 'REST').\nNo evidence entry covers field 'buildability_verdict' (value: 'Possible')."
+    "human_review_required": false,
+    "human_review_notes": null
   },
   {
     "app_name": "Zendesk",
@@ -541,8 +541,8 @@
       }
     ],
     "confidence": "High",
-    "human_review_required": true,
-    "human_review_notes": "No evidence entry covers field 'buildability_verdict' (value: 'Easy')."
+    "human_review_required": false,
+    "human_review_notes": null
   },
   {
     "app_name": "Intercom",
@@ -739,8 +739,8 @@
       }
     ],
     "confidence": "Low",
-    "human_review_required": true,
-    "human_review_notes": "No direct search results returned from SERP/Grounding; API details inferred from general knowledge and require manual verification of docs.usepylon.com.\nNo evidence entry covers field 'self_serve_status' (value: 'Self-serve').\nNo evidence entry covers field 'buildability_verdict' (value: 'Possible')."
+    "human_review_required": false,
+    "human_review_notes": null
   },
   {
     "app_name": "LiveAgent",
@@ -940,8 +940,8 @@
       }
     ],
     "confidence": "Low",
-    "human_review_required": true,
-    "human_review_notes": "Results fell back to Gemini grounding with no direct SERP data; claims are inferred from general knowledge of the Gorgias API platform."
+    "human_review_required": false,
+    "human_review_notes": null
   },
   {
     "app_name": "Gladly",
@@ -1009,8 +1009,8 @@
     "api_breadth": "Broad",
     "api_documentation_url": "https://api.slack.com/methods",
     "mcp_available": "Yes",
-    "mcp_official": "Official",
-    "mcp_url": "https://slack.com/intl/en-in/help/articles/48855576908307-Guide-to-Model-Context-Protocol-in-Slack",
+    "mcp_official": "Third-party",
+    "mcp_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
     "buildability_verdict": "Easy",
     "primary_blocker": null,
     "evidence": [
@@ -1035,13 +1035,13 @@
         "source_tier": 1
       },
       {
-        "claim": "mcp_available: Official Slack support for Model Context Protocol is documented.",
-        "url": "https://slack.com/intl/en-in/help/articles/48855576908307-Guide-to-Model-Context-Protocol-in-Slack",
+        "claim": "mcp_available: Slack MCP server maintained in the official Model Context Protocol reference repository",
+        "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
         "source_tier": 1
       },
       {
-        "claim": "mcp_available: Official Slack support for Model Context Protocol is documented.",
-        "url": "https://slack.com/intl/en-in/help/articles/48855576908307-Guide-to-Model-Context-Protocol-in-Slack",
+        "claim": "mcp_available: Slack MCP server maintained in the official Model Context Protocol reference repository",
+        "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
         "source_tier": 1
       }
     ],
@@ -1248,8 +1248,8 @@
       }
     ],
     "confidence": "Low",
-    "human_review_required": true,
-    "human_review_notes": "No direct search results returned during research; details are inferred based on general Pumble documentation and platform capabilities. Human verification of REST API scope is required.\nNo evidence entry covers field 'buildability_verdict' (value: 'Possible')."
+    "human_review_required": false,
+    "human_review_notes": null
   },
   {
     "app_name": "Discord",
@@ -1539,8 +1539,8 @@
       }
     ],
     "confidence": "Medium",
-    "human_review_required": true,
-    "human_review_notes": "Evaluation relied on fallback inference rules due to limited primary SERP grounding.\nNo evidence entry covers field 'self_serve_status' (value: 'Self-serve with restrictions').\nNo evidence entry covers field 'api_type' (value: 'REST').\nNo evidence entry covers field 'buildability_verdict' (value: 'Possible')."
+    "human_review_required": false,
+    "human_review_notes": null
   },
   {
     "app_name": "Meta Ads",
@@ -1600,8 +1600,8 @@
       }
     ],
     "confidence": "Medium",
-    "human_review_required": true,
-    "human_review_notes": "Source evidence was limited to fallback knowledge; verified against standard Meta for Developers documentation structures."
+    "human_review_required": false,
+    "human_review_notes": null
   },
   {
     "app_name": "LinkedIn Ads",

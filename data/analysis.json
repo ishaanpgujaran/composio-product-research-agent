@@ -223,9 +223,9 @@
     "Unknown": 6
   },
   "mcp_distribution": {
-    "Official": 3,
-    "Community": 4,
-    "None": 93
+    "Community": 6,
+    "None": 93,
+    "Official": 1
   },
   "buildability_distribution": {
     "Easy": 64,

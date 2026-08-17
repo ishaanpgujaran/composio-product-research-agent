@@ -564,7 +564,8 @@
         "agent_answer": "Community",
         "ground_truth": "Official",
         "correct": false,
-        "error_type": "search_failure"
+        "error_type": "search_failure",
+        "correct_evidence_url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html"
       },
       "buildability_verdict": {
         "agent_answer": "Easy",
@@ -1338,7 +1339,8 @@
         "agent_answer": "Third-party",
         "ground_truth": "Official",
         "correct": false,
-        "error_type": "search_failure"
+        "error_type": "search_failure",
+        "correct_evidence_url": "https://slack.com/intl/en-in/help/articles/48855576908307-Guide-to-Model-Context-Protocol-in-Slack"
       },
       "buildability_verdict": {
         "agent_answer": "Easy",
