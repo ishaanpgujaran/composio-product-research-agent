@@ -15,8 +15,8 @@
     "api_breadth": "Very broad",
     "api_documentation_url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm",
     "mcp_available": "Yes",
-    "mcp_official": "Community",
-    "mcp_url": "https://github.com/modelcontextprotocol/servers",
+    "mcp_official": "Official",
+    "mcp_url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
     "buildability_verdict": "Easy",
     "primary_blocker": null,
     "evidence": [
@@ -43,6 +43,11 @@
       {
         "claim": "buildability_verdict: Easy integration using standard OAuth2 flows and REST endpoints",
         "url": "https://developer.salesforce.com/docs",
+        "source_tier": 1
+      },
+      {
+        "claim": "mcp_available: Salesforce official support for hosted Model Context Protocol servers is documented.",
+        "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/hosted-mcp-servers-overview.html",
         "source_tier": 1
       }
     ],
@@ -1004,8 +1009,8 @@
     "api_breadth": "Broad",
     "api_documentation_url": "https://api.slack.com/methods",
     "mcp_available": "Yes",
-    "mcp_official": "Third-party",
-    "mcp_url": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
+    "mcp_official": "Official",
+    "mcp_url": "https://slack.com/intl/en-in/help/articles/48855576908307-Guide-to-Model-Context-Protocol-in-Slack",
     "buildability_verdict": "Easy",
     "primary_blocker": null,
     "evidence": [
@@ -1030,13 +1035,13 @@
         "source_tier": 1
       },
       {
-        "claim": "mcp_available: Slack MCP server maintained in the official Model Context Protocol reference repository",
-        "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
+        "claim": "mcp_available: Official Slack support for Model Context Protocol is documented.",
+        "url": "https://slack.com/intl/en-in/help/articles/48855576908307-Guide-to-Model-Context-Protocol-in-Slack",
         "source_tier": 1
       },
       {
-        "claim": "buildability_verdict: Easy buildability with instant token access, extensive API documentation, and pre-built MCP servers",
-        "url": "https://api.slack.com/docs",
+        "claim": "mcp_available: Official Slack support for Model Context Protocol is documented.",
+        "url": "https://slack.com/intl/en-in/help/articles/48855576908307-Guide-to-Model-Context-Protocol-in-Slack",
         "source_tier": 1
       }
     ],

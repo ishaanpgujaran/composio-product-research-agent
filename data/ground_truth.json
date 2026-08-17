@@ -562,9 +562,9 @@
       },
       "mcp_official": {
         "agent_answer": "Community",
-        "ground_truth": "N/A",
-        "correct": true,
-        "error_type": null
+        "ground_truth": "Official",
+        "correct": false,
+        "error_type": "search_failure"
       },
       "buildability_verdict": {
         "agent_answer": "Easy",
@@ -1284,6 +1284,71 @@
       "primary_blocker": {
         "agent_answer": "Limited public search evidence available in grounded results; requires official documentation confirmation.",
         "ground_truth": "Limited public search evidence available in grounded results; requires official documentation confirmation.",
+        "correct": true,
+        "error_type": null
+      }
+    }
+  },
+  {
+    "app_name": "Slack",
+    "category": "Communications and Messaging",
+    "completed": true,
+    "fields": {
+      "auth_methods": {
+        "agent_answer": [
+          "OAuth 2.0",
+          "Bearer token"
+        ],
+        "ground_truth": [
+          "OAuth 2.0",
+          "Bearer token"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "self_serve_status": {
+        "agent_answer": "Self-serve",
+        "ground_truth": "Self-serve",
+        "correct": true,
+        "error_type": null
+      },
+      "api_type": {
+        "agent_answer": [
+          "REST"
+        ],
+        "ground_truth": [
+          "REST"
+        ],
+        "correct": true,
+        "error_type": null
+      },
+      "api_breadth": {
+        "agent_answer": "Broad",
+        "ground_truth": "Broad",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_available": {
+        "agent_answer": "Yes",
+        "ground_truth": "Yes",
+        "correct": true,
+        "error_type": null
+      },
+      "mcp_official": {
+        "agent_answer": "Third-party",
+        "ground_truth": "Official",
+        "correct": false,
+        "error_type": "search_failure"
+      },
+      "buildability_verdict": {
+        "agent_answer": "Easy",
+        "ground_truth": "Easy",
+        "correct": true,
+        "error_type": null
+      },
+      "primary_blocker": {
+        "agent_answer": null,
+        "ground_truth": null,
         "correct": true,
         "error_type": null
       }

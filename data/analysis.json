@@ -3,7 +3,7 @@
   "categories_count": 10,
   "sources_checked": "450+",
   "first_pass_accuracy": "80.0%",
-  "final_accuracy": "95.0%",
+  "final_accuracy": "88.1%",
   "insights": [
     {
       "headline": "Self-Serve Developer Access Dominates, But Gating Persists",
@@ -223,9 +223,9 @@
     "Unknown": 6
   },
   "mcp_distribution": {
-    "Community": 6,
-    "None": 93,
-    "Official": 1
+    "Official": 3,
+    "Community": 4,
+    "None": 93
   },
   "buildability_distribution": {
     "Easy": 64,
@@ -235,16 +235,12 @@
     "Blocked": 5
   },
   "blockers_distribution": {
-    "API documentation and credentials require gated enterprise access.": 1,
-    "Limited public search evidence available in grounded results; requires official documentation confirmation.": 1,
-    "Account creation requires contacting sales or obtaining an enterprise subscription.": 1,
-    "Limited granular REST API documentation available publicly compared to webhooks.": 1,
-    "Meta Business Manager verification is required for production use, and generating permanent access tokens requires creating a System User in Meta Business Suite.": 1,
-    "Requires a Google Ads developer token which starts in test mode and requires approval for production access.": 1,
-    "App review and specific permission approvals are required to access certain production ad data and publishing endpoints.": 1,
-    "Requires Salesforce partner or enterprise account access to provision API credentials.": 1,
-    "Requires hosting and administering a Magento instance or access to an Adobe Commerce environment to test and generate API integrations.": 1,
-    "Limited public endpoint documentation and developer program approval processes may introduce friction.": 1
+    "Limited/Opaque Documentation": 13,
+    "Partner/Admin Approval": 6,
+    "Enterprise Sales Gating": 5,
+    "Other Gating/Credentials": 3,
+    "Strict App Review": 2,
+    "No Public API": 1
   },
   "matrix": {
     "q1": [
